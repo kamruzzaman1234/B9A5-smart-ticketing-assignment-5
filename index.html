@@ -182,10 +182,10 @@
                 The integrated <br> testing features allow for a streamlined .</p>
             </div>
             <div class="bg-[#FFFFFF] p-5 rounded-lg">
-                <div class="grid grid-cols-3">
-                    <div class="col-span-2 bg-[#F7F8F8] p-4 rounded-lg">
-                     <div class="flex justify-between items-center">
-                        <div class="flex items-center justify-center">
+                <div class="grid grid-cols-1 lg:grid-cols-3">
+                    <div class="cols-span-3 lg:col-span-2 bg-[#F7F8F8] p-4 rounded-lg">
+                     <div class="flex justify-between flex-col  lg:flex-row items-center">
+                        <div class="flex items-center flex-col lg:flex-row justify-center">
                             <div class="p-3">
                                 <img src="images/bus-logo.png" alt="bus logo">
                             </div>
@@ -213,10 +213,10 @@
                             <p class="text-[#030712] font-bold semibold">9.00px</p>
                         </div>
                   </div>
-                  <div class=" flex text-black opacity-80 justify-between ">
-                    <div class="grid h-20 w-[30%] card bg-black bg-opacity-5 rounded-box place-items-center">Boarding Point - Laxmipur</div> 
-                    <div class="grid h-20 w-[30%] card bg-black bg-opacity-5 rounded-box place-items-center">Dropping Point - Bogura</div> 
-                    <div class="grid h-20 w-[30%] card bg-black bg-opacity-5 rounded-box place-items-center">Est. Time - 11 Hour</div> 
+                  <div class=" flex text-black space-y-4 flex-col lg:flex-row opacity-80 justify-between ">
+                    <div class="grid h-20 w-full lg:w-[30%] card bg-black bg-opacity-5 rounded-box place-items-center">Boarding Point - Laxmipur</div> 
+                    <div class="grid h-20 lg:w-[30%] card bg-black bg-opacity-5 rounded-box place-items-center">Dropping Point - Bogura</div> 
+                    <div class="grid h-20 lg:w-[30%] card bg-black bg-opacity-5 rounded-box place-items-center">Est. Time - 11 Hour</div> 
                 </div>
                       
                     </div>
@@ -231,16 +231,16 @@
                      
             </div>
     
-            <div class="bg-white p-10 mt-24 rounded-3xl flex">
+            <div class="bg-white grid grid-cols-1 gap-10 lg:grid-cols-2 mt-24 rounded-3xl">
                 <!-- left -->
-                <div class="flex-1 mx-10">
-                    <div>
-                        <div class=" font-[raleway] font-semibold text-2xl ">
+                <div class="p-4">
+                    <div class=" ">
+                        <div class="font-[raleway] font-semibold text-2xl ">
                             <h3 class="text-black ">Select Your Seat</h3>
                             <div class="border-y-[2px] border-dashed my-6" ></div>
                         </div>
                         
-                        <div class="flex justify-between  font-semibold text-lg ">
+                        <div class="flex justify-between   font-semibold text-lg ">
                             <h3 class="text-black opacity-60 flex gap-2"> <img src="images/seat-gray.png" alt="">Available</h3>
                             <h2 class="text-black flex gap-2"><img src="images/seat-green-filled.png" alt=""> Selected</h2>
                         </div>
@@ -341,9 +341,9 @@
                     
                     
                 </div>
-                <div class="border-r-[2px] border-dashed mx-8" ></div>
+                <!-- <div class="border-r-[2px] border-dashed mx-8"></div> -->
                 <!-- right -->
-                <div class="basis-[40%] mx-10">
+                <div class="p-4">
                     <div>
                         <div class=" font-[raleway] font-semibold text-2xl ">
                             <h3 class="text-black ">Select Your Seat</h3>
@@ -353,7 +353,8 @@
                     <div class="bg-slate-50 p-8 rounded-xl">
                         <div class="">
                             <div class="font-medium text-base flex justify-between">
-                                <h3 class="text-black ">Seat</h3>
+                                <h3 class="text-black ">Seat 
+                                <sup class="bg-green-400 text-white p-3 rounded-full">0</sup> </h3>
                                 <h3 class="text-black ">Class</h3>
                                 <h3 class="text-black ">Price</h3>
                             </div>
