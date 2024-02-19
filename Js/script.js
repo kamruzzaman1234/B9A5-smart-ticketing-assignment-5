@@ -4,9 +4,6 @@ function showTicket(){
     
 }
 
-function showAll(){
-    
-}
 
 
 changeColor(A1, "A1");

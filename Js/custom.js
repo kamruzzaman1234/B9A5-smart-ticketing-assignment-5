@@ -1,7 +1,7 @@
 function showElementId(elementId){
     const showElement = document.getElementById(elementId);
     showElement.classList.remove('hidden');
-    
+
 }
 
 function hideElement(elementId){
@@ -162,10 +162,12 @@ btn_coupon.addEventListener("click", () => {
                 </div>`;
       coupon_input.value = "Already applied";
       coupon_input.setAttribute("disabled", false);
-    } else if (input_value === coupon15) {
+    } 
+    else if (input_value === coupon15) {
       count = count + 1;
       totalPrice = totalPrice - totalPrice * 0.15;
       grand.innerText = totalPrice;
+
       dicount.innerHTML = ` <div class="flex justify-between">
                   <div class="text-xl text-green-700">
                     <span id="percent">15%</span> discount
@@ -188,6 +190,7 @@ phone.addEventListener("change", () => {
     next_btn.setAttribute("disabled", false);
   }
 });
+
 
 
 next_btn.addEventListener('click', () => {
