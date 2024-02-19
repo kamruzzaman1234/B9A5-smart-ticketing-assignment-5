@@ -193,6 +193,3 @@ phone.addEventListener("change", () => {
 
 
 
-next_btn.addEventListener('click', () => {
-  
-})
